@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularios html</title>
+</head>
+
+<body>
+    <h1>Formularios</h1>
+    <form accept="#" method="post">
+        <div>
+            <label>Primer nombre</label>
+            <input type="text" 
+            name="primerNombre"
+             maxlength="10" 
+             placeholder="Ingrese su primer nombre"
+             value="Usuario"
+             required/>
+        </div>
+
+        <br>
+
+        <div>
+            <label>Contraseña</label>
+            <input type="password" 
+            name="pwd"
+            maxlength="20"
+            placeholder="Ingrese su contraseña"
+            />
+        </div>
+
+        <br>
+
+        <div>
+            <label>Edad</label>
+            <input type="number"
+            name="edad"
+            min="1" max="120"
+            placeholder="Ingrese su edad"/>
+        </div>
+
+        <br>
+
+        <div>
+            <label>Email</label>
+            <input type="email" name="email" placeholder="usuario@gmail.com"/>
+        </div>
+
+        <br>
+
+        <div>
+            <label>Archivo</label>
+            <input type="file" name="archivo"/>
+        </div>
+
+        <br>
+
+        <div>
+            <label>Color</label>
+            <input type="color" name="color"/>
+        </div>
+
+        <br>
+
+        <div>
+            <label>Fecha</label>
+            <input type="date" name="fecha"/>
+        </div>
+
+        <br>
+
+        <div>
+            <label>Fecha y Hora </label>
+            <input type="datetime-local" name="fechaHora"/>
+        </div>
+
+        <br>
+
+        <div>
+            <label>Ciudad</label>
+            <select name="Ciudad">
+                <option value="">Seleccione una ciudad</option>
+                <option value="1">Tunja</option>
+                <option value="2">Duitama</option>
+                <option value="3">Sogamoso</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label>Estado civil:</label>
+
+            <label>
+                <input type="radio" name="estadoCivil" value="a">
+                Soltero/a
+            </label>
+
+            <label>
+                <input type="radio" name="estadoCivil" value="b">
+                Casado/a
+            </label>
+
+            <label>
+                <input type="radio" name="estadoCivil" value="c" checked>
+                Ninguno/a
+            </label>
+
+        </div>
+
+        <br>
+
+        <div>
+            <label >Pasatiempos:</label>
+
+            <label>
+                <input type="checkbox" name="deportes">
+                Deportes
+            </label>
+
+            <label>
+                <input type="checkbox" name="videojuegos">
+                Videojuegos
+            </label>
+
+            <label>
+                <input type="checkbox" name="lectura">
+                lectura
+            </label>
+
+            <label>
+                <input type="checkbox" name="ninguno" checked>
+                Ninguno
+            </label>
+        </div>
+
+        <br>
+        
+        <div>
+            <label>Justifique</label>
+            <textarea name="justifique" rows="10" cols="35"></textarea>
+        </div>
+
+        <br>
+
+        <div>
+            <input type="button" value="boton">
+            <br>
+            <br>
+            <button disabled >boton</button>
+        </div>
+
+        <br>
+
+        <div>
+            <input type="reset" value="limpiar">
+            <br>
+            <br>
+            <button type="reset">Limpiar</button>
+        </div>
+
+        <div>
+            <input type="submit" value="enviar">
+            <br>
+            <br>
+            <button type="submit">Enviar</button>
+        </div>
+
+
+
+
+    </form>
+</body>
+</html>
