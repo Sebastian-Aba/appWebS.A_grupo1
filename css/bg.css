@@ -1,0 +1,14 @@
+header{
+    width: 100vw;
+    height: 250px;
+    /*background: #663131;*/
+    /*background: url('https://cdnb.artstation.com/p/assets/images/images/036/717/411/medium/leartes-studios-2.jpg?1618421644');
+    */
+    background-color: brown;
+    background-image: url('../Resources/bg/pngwing.com\ \(1\).png'),
+    url('https://cdnb.artstation.com/p/assets/images/images/036/717/411/medium/leartes-studios-2.jpg?1618421644');
+    background-size:50px, cover;
+    background-repeat: no-repeat, no-repeat;
+    background-position: 20px 150px, 0px 0px ;
+
+}

@@ -1,0 +1,24 @@
+.titulo{
+    font-size: 25px;
+    color: #dba632 ;
+    /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
+    font-family: "Jacquarda Bastarda 9", serif;
+    font-weight: normal; /*negrilla*/
+    font-style: italic; /*cursiva*/
+   /* font-variant: small-caps;*/
+   text-align: center; /*alineacion del tecto*/
+   text-decoration: overline;
+   text-decoration: line-through;
+   text-decoration: underline;
+   text-shadow: 25px 20px 7px #272222; /*sombras*/
+   text-transform: uppercase; /*todo mayuscula*/
+   text-transform: lowercase; /*todo minuscula*/
+   text-transform: capitalize; /*primera en Mayuscula*/
+   text-indent: 50px; /*identar/margenes del texto*/
+   word-spacing: 5px; /*espacio entre palabras*/
+   letter-spacing: 10px; /*espacio entre letra*/
+   line-height:  30px; /*alto de la lina del texto*/
+   
+
+}
+

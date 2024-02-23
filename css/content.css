@@ -1,0 +1,35 @@
+*{
+    font-family: "Jacquarda Bastarda 9", serif;
+    margin: 0px;
+    padding: 0px;
+    font-weight: normal; 
+    font-style: italic; 
+
+}
+
+section{
+    border:  1px solid #000000;
+    padding: 16px;
+    padding: 8px 16px 32px 64px;
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 32px;
+    padding-left: 64px;
+    padding-inline: 50px; /*margenes de los lados*/
+    padding-block: 20px; /*margenes de arriba y abajo*/
+
+    margin: 16px; /*margenes externas tiene mismas funciones de padding*/
+
+    border-color: #990202;
+    border-left: 2px solid #cac02a;
+    border-bottom:3px solid #000000;
+    border-top: 5px solid #88c714;
+    border-right:8px solid #990202;
+
+    border-radius: 10px;
+    border-top-right-radius: 50px;
+    box-shadow: 20px 10px #0000005d;
+    box-shadow: 20px 10px 6px -5px #000000c5;
+
+
+}
