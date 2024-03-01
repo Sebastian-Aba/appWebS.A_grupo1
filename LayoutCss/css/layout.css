@@ -4,7 +4,7 @@
 }
 
 img{
-    width: 460px;
+    width: 250px;
 }
 
 .page{
@@ -43,6 +43,35 @@ img{
 .bodyContent{
     background-color:  #a73c3c;
     grid-area: body;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.bodyContent .tituloArticulo{
+    width: 100%;
+    text-align: center;
+}
+
+.bodyContent .producto {
+    width: 250px;
+    border: 10px #000000;
+    border-radius: 16px;
+    margin: 16px;
+    padding: 8px;
+}
+
+.producto .descripcion{
+    display: none;
+}
+
+.producto:hover{
+    border-color: rgb(35, 161, 219);
+}
+
+.producto:hover .descripcion{
+    display: block;
+    color: #ffffff;
 }
 
 .footerContent{
